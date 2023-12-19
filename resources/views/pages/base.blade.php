@@ -12,7 +12,7 @@
     body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-image: url('https://i.etsystatic.com/23641280/r/il/c13ee5/2668603261/il_1140xN.2668603261_r1kj.jpg');
+            background-image: url('https://c4.wallpaperflare.com/wallpaper/262/774/423/space-stars-nebula-tylercreatesworlds-wallpaper-preview.jpg');
             background-size: cover; /* Adjusts the size of the background image */
             background-position: center; /* Positions the background image */
              /* Additional styles for the container */
@@ -20,48 +20,86 @@
             height: 100vh;
         }
 
-
-
-
-        .logo {
-            color: #ffffff;
-            font-size: 1.5em;
-        }
         h1 {
-        color: rgb(232, 248, 10);
-           }
+            text-align: center;
+            color: #e3e321;
+            padding: 20px;
 
+        }
 
-        .nav-list {
-            list-style: none;
-            color: #ffffff;
-            margin: 0;
-            padding: 0;
+        .container {
+            text-align: right;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+        }
+
+}
+.jumbotron {
+  background-color: #212122;
+  padding: 20px;
+  border-radius: 10px;
+ 
+}
+        .btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #553b35;
+  --bs-btn-border-color: #0d0d0e;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #121212;
+  --bs-btn-hover-border-color: #818182;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #626365;
+  --bs-btn-active-border-color: #848586;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #2a2d30;
+  --bs-btn-disabled-border-color: #822f0c;
+}
+
+        .nav {
             display: flex;
+            justify-content: center;
+            background-color: #b8545405;
+            padding: 10px 0;
+            border-top: 2px solid #f6f2f2;
+            border-bottom: 2px solid #faefef;
+            border-right: 2px solid #f6efef;
+            border-left: 2px solid #f9eeee;
         }
 
-        .nav-list li {
-            margin-right: 20px;
+        .nav-item {
+            margin: 0 15px;
         }
 
-        .nav-list a {
+        .nav-link {
             text-decoration: none;
-            color: #ffffff;
+            color: #f1ecec;
             font-weight: bold;
-            transition: color 0.3s ease;
+            font-size: 18px;
+            transition: color 0.3s;
         }
 
-        .nav-list a:hover {
-            color: #ff8c00;
+        .nav-link:hover {
+            color: #fdfd9e;
         }
+
+        .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+            color: var(--bs-nav-pills-link-active-color);
+            background-color: #131313;
+            border-top: #000000;
+            border-bottom:#000000;
+            border-left:#000000;
+            border-right:#000000;
+        }
+
     </style>
 </head>
 <body>
 
-<nav class="navbar navbar-light" style="background-color: rgba(20, 20, 20, 0.5);">
+<nav class="navbar navbar-light" style="background-color: rgba(225, 221, 221, 0);">
 
-
-        <h1>Dane's Library  System</h1>
 
         <ul class="nav justify-content-end float-right nav-pills">
 
